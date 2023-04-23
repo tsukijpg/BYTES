@@ -1,0 +1,11 @@
+function somatorioAteN(n){
+  let soma = 0;
+  let contador = 0;
+
+  while(contador <= n){
+    soma += contador;
+    contador++;
+  }
+
+  return soma;
+}
