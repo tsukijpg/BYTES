@@ -1,0 +1,14 @@
+function trimestresDoAno(t) {
+    switch (t){
+        case 1: t = "Janeiro, Fevereiro, Março"
+        break;
+        case 2: t = "Abril, Maio, Junho"
+        break;
+        case 3: t = "Julho, Agosto, Setembro"
+        break;
+        case 4: t = "Outubro, Novembro, Dezembro"
+        break;
+        default: t = "Número inválido. Por favor insira um número entre 1 e 4."
+    }
+return t
+}
