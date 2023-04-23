@@ -1,0 +1,15 @@
+function contaParesEntreDoisValores(valor1, valor2) {
+  if (valor1 === valor2) {
+    return "Por favor introduza dois valores diferentes.";
+  }
+  
+  let count = 0;
+  
+  for (let i = Math.min(valor1, valor2); i <= Math.max(valor1, valor2); i++) {
+    if (i % 2 === 0) {
+      count++;
+    }
+  }
+  
+  return count;
+}
