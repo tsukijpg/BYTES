@@ -1,0 +1,14 @@
+function fatorialN(n){
+let resultado = n
+if  ( n === 0){
+    return 1;
+}
+if (n === 1){
+    return 1;
+}
+while (n>1){
+    n--;
+    resultado = BigInt(resultado) * BigInt(n)
+}
+return resultado
+}
