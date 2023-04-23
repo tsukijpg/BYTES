@@ -1,0 +1,83 @@
+
+function calculaDiaDoAno(dia, mes){
+                if (dia<1 || dia>31){
+                    return "Por favor introduza um dia entre 1 e 31."}
+                    
+                if (mes<1 || mes>12 ){
+                    return "Por favor introduza um mês entre 1 e 12."}
+
+                if (mes === 4 && dia>30 || (mes === 6 && dia>30) || (mes=== 9 && dia>30) || (mes=== 11 && dia>30 )){
+                    return "Por favor introduza um dia entre 1 e 30."}
+
+                if (mes===2 && dia<1 || mes === 2 && dia>28){
+                    return "Por favor introduza um dia entre 1 e 28."}
+
+                let diaDoAno = 0
+
+
+
+
+        if (mes>1) { 
+            diaDoAno= diaDoAno+31 
+        }
+        if (mes> 2){
+            diaDoAno = diaDoAno + 28
+        }
+        if (mes> 3){
+            diaDoAno = diaDoAno + 31
+        }
+        if (mes> 4){
+            diaDoAno = diaDoAno + 30
+        }
+        if (mes> 5){
+            diaDoAno = diaDoAno + 31
+        }
+        if (mes> 6){
+            diaDoAno = diaDoAno + 30
+        }
+        if (mes> 7){
+            diaDoAno = diaDoAno + 31
+        }
+        if (mes> 8){
+            diaDoAno = diaDoAno + 31
+        }
+        if (mes> 9){
+            diaDoAno = diaDoAno + 30
+        }
+        if (mes> 10){
+            diaDoAno = diaDoAno + 31
+        }
+        if (mes> 11){
+            diaDoAno = diaDoAno + 30
+        }
+        if (mes> 12){
+            diaDoAno = diaDoAno + 31
+        }
+//----------------------------------------------
+        if (mes === 1) {
+            diaDoAno = dia}
+        if (mes === 2) {
+            diaDoAno = diaDoAno + dia}
+        if (mes === 3) {
+            diaDoAno = diaDoAno + dia}
+        if (mes === 4) {
+            diaDoAno = diaDoAno + dia}
+        if (mes === 5) {
+            diaDoAno = diaDoAno + dia}
+        if (mes === 6) {
+            diaDoAno = diaDoAno + dia}
+        if (mes === 7) {
+            diaDoAno = diaDoAno + dia}
+        if (mes === 8) {
+            diaDoAno = diaDoAno + dia}
+        if (mes === 9) {
+            diaDoAno = diaDoAno + dia}
+        if (mes === 10) {
+            diaDoAno = diaDoAno + dia}
+        if (mes === 11) {
+            diaDoAno = diaDoAno + dia}
+        if (mes === 12) {
+            diaDoAno = diaDoAno + dia}
+            
+     return diaDoAno 
+}
