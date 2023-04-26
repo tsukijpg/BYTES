@@ -1,0 +1,4 @@
+function encontraImpar(array){
+const findd = array.find((element) => element%2 === 1 );
+return findd
+}
