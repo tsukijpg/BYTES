@@ -1,0 +1,5 @@
+function partesInteiras(array) {
+  return array.map(function(num) {
+    return Math.floor(num);
+  });
+}
