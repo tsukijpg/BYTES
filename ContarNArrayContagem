@@ -1,0 +1,16 @@
+function contarNsNoArray(n, array){
+            let contagem= 0             //nao tenho contagem mas sei que é numero
+for (let i = 0; i<array.length; i++){    /// tem q começar na posiçao 0 que é 1 neste caso; enqt i for menor que o fim; continua
+            if (array[i]==n){           //// se dentro da array o VALOR da posiçao for igual a N, entra:                             /////// não escrevo if(i==n)porque não é a posiçao
+            contagem = contagem + 1      /// se entrou conta 1                                                                               mas sim  o VALOR da posiçao no momento        
+     }
+  
+}  return contagem
+}
+
+
+//////////////[1,2,3,3,4,5] n = 3
+array posiºao [0,1,2,3,4,5,]
+0 = 1
+1 = 2
+...
