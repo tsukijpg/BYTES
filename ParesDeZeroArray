@@ -1,0 +1,12 @@
+function paresDeZeroAN(numeroRecebido){
+  let arrayy = [] // criar array
+if (n<0){ 
+  return "Por favor insira um número superior a 0."
+}
+for (let contagem = 0; contagem <= numeroRecebido; contagem++){ // a contagem começa no 0; enqt a contagem for menor ou igual ao numero recebido; ela continua;
+  if (contagem%2==0){ // se o resto da contagem for 0 dá o push na contagem 
+ arrayy.push(contagem)
+  }
+}
+return arrayy
+}
