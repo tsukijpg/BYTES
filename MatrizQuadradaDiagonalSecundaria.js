@@ -1,12 +1,11 @@
 function somaDiagonalSecundaria(matrizquadrada) {
-    // escreve aqui a função
     let soma = 0;
     for (let i = 0; i < matrizquadrada.length; i++) {
-        soma += matrizquadrada[i][matrizquadrada.length - 1 - i]
+        soma += matrizquadrada[i][matrizquadrada.length - 1 - i] //quero adicionar á soma a posiçao de i + o fim do array menos 1 para achar a ultima posição
     }
 
     return soma
-    // matrizquadrada[0][3 - 0 => 3]
+    // matrizquadrada[0][3 - 0    3] // começa na posiçao 0..... encontra o 3 que é o fim.....
     // matrizquadrada[1][3 - 1    2]
     // matrizquadrada[2][3 - 2    1]
     // matrizquadrada[3][3 - 3    0]
