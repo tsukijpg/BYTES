@@ -5,3 +5,24 @@ function formataData(data) {
   let dataFormatada = mes + "-" + dia + "-" + ano;
   return dataFormatada;
 }
+
+
+..................
+function formataData(data) {
+  // escreve aqui a função
+  console.log(data);
+
+  let dia = data.getDate();
+  let mes = data.getMonth() + 1;
+  let ano = data.getFullYear();
+
+  if (dia < 10) {
+    dia = "0" + dia;
+  }
+  if (mes < 10) {
+    mes = "0" + mes;
+  }
+
+  return `${mes}-${dia}-${ano}`;
+  //Ou return `${dia}-${mes}-${ano}`;
+}
