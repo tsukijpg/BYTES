@@ -1,0 +1,7 @@
+function formataData(data) {
+  let dia = ("0" + data.getDate()).slice(-2);
+  let mes = ("0" + (data.getMonth() + 1)).slice(-2);
+  let ano = data.getFullYear();
+  let dataFormatada = mes + "-" + dia + "-" + ano;
+  return dataFormatada;
+}
