@@ -26,3 +26,15 @@ function formataData(data) {
   return `${mes}-${dia}-${ano}`;
   //Ou return `${dia}-${mes}-${ano}`;
 }
+
+
+
+vvvvvvvvvvvvvvvvvvvvvvv
+function formataData(data){
+let dia = data.getDate()
+let mes = data.getMonth() + 1
+let ano = data.getFullYear()
+if (dia < 10) { dia = "0" + dia }
+if (mes < 10) { mes = "0" + mes}
+return dia + "-" + mes + "-" + ano
+} 
