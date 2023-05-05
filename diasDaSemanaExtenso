@@ -1,0 +1,10 @@
+function diaDaSemanaPorExtensoBilingue(data, lingua){
+    let datapt = data.toLocaleString("pt-PT",{weekday:"long"}).toLowerCase()
+    let dataing = data.toLocaleString("en-US",{weekday:"long"}).toLowerCase()
+if (lingua === "en"){
+    return dataing
+    }
+if (lingua === "pt"){
+    return datapt
+    } 
+}
