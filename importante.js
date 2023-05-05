@@ -11,3 +11,17 @@ esta maneira:
 }
 OU
 return `${diaDaSemana}, ${dia} de ${mes} de ${ano}`
+-----------------------------
+
+SE O RETURN É A PRIMEIRA LETRA GRANDE E AS OUTRAS PEQUENAS /// Segunda-feira 
+
+function mesPorExtensoBilingue(data, lingua){
+let mesPt = data.toLocaleString("pt-PT",{month:"long"})
+let mesIng = data.toLocaleString("en-US",{month:"long"})
+if ( lingua === "en"){
+    return mesIng.charAt(0).toUpperCase() + mesIng.substr(1)
+}
+if ( lingua === "pt"){
+    return mesPt.charAt(0).toUpperCase() + mesPt.substr(1)
+}
+} 
