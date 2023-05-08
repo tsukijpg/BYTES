@@ -1,0 +1,5 @@
+class inteiro {
+constructor(valor){ // aqui poes o que recebes, os argumentos (nem sempre em argumentos)
+if.... condiçoes{
+
+}
