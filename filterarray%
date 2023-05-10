@@ -1,0 +1,4 @@
+function filtraArray(array){
+const qqlCoisa= array.filter(x => x%2 !== 0)
+return qqlCoisa
+}
