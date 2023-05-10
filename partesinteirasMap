@@ -1,0 +1,5 @@
+function partesInteiras(array){
+const novoArray= array.map((ele) => Math.floor(ele))  /////// mapear o array; criar uma nova função chamada elemento; depois dou return (com a flecha) dizendo o que quero fazer da função, escrevendo á frente
+return novoArray
+}
+
