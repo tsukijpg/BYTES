@@ -1,4 +1,7 @@
-function filtraArray(array){
-const qqlCoisa= array.filter(x => x%2 !== 0)
+function filtraArray(array){ // numero impar
+const qqlCoisa= array.filter(ele=> ele%2 !== 0) // pego um item / verifica o que eu quero/ 
 return qqlCoisa
 }
+
+
+
