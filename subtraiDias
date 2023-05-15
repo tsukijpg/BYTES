@@ -1,0 +1,7 @@
+function subtraiDias(data, dias){
+let dataMs = data.getTime()
+let diasMs = dias *24 *60*60*1000
+let novaData= (dataMs - diasMs)
+return new Date(novaData)
+
+tenho que passar rtudo para milessegundos
