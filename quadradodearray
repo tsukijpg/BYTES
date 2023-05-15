@@ -1,0 +1,5 @@
+functon array1([1,2,3])
+let novoArray = []
+for (....){
+novoArray.push(array[i]**2)        ///push é empurrar para o 0
+return novoarray                         /////// tem q ser fora porque quero q rode
