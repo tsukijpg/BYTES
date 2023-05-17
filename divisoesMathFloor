@@ -1,0 +1,9 @@
+function contaNumeroDeDivisoesPorDois(n){
+
+    let contagem= 0 
+while (n>1){ // so consigo dividir se for maisr q 1 
+n = Math.floor(n/2) // numero inteiro, retira as decimais. faz a conta
+contagem++ // adiciona sempre 
+    }
+    return contagem
+}
