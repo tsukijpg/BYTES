@@ -1,0 +1,18 @@
+function formataString(string) {
+    let palavra = ""
+
+    for(let i = 0; i<string.length;i++){
+
+        if(string[i]== string[i].toLowerCase()){
+            palavra += string[i].toUpperCase()
+        }
+        else{
+            palavra += string[i].toLowerCase()
+        
+        }
+        
+    }
+    return palavra
+   }
+   
+   console.log(formataString("AAAAAAeeeeeeee"))
